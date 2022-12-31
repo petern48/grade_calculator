@@ -2,8 +2,7 @@
 ### Video Demo: https://youtu.be/ZYZvnMvoUw0
 ### Description:
 
-Grade Calculator is a program compute overall class grades for a wide variety of college classes.
-It offers the user the ability to create a **weighted** calculator specific to their classes.
+Grade Calculator is a program compute overall class grades for a wide variety of college classes. It offers the user the ability to create a custom **weighted** calculator specific to their classes. It accommodates different numbers, categories, assignments, and even grading schemes. Ultimately, it will output which grading scheme is best to use and the final grade and percentage it results in.
 
 ### **Overview**
 The calculator is implemented by 4 classes: Course, Category, Assignment, and GradingScheme. All of which are dynamically allocated, depending on the user's input.
@@ -42,7 +41,3 @@ Once the program receives the user's input, it does the following:
 
 #### **Purpose**
 Implementing each of these as separate classes allows for greater flexibility. The user, may create grading schemes that include different number of categories with different weights, according to their course's policy. For example, some classes have a grading scheme that drops one of two midterms, in case they did very poorly or could not attend one of them. This calculator would accomodate that and calculate which grading scheme is better.
-
-**YOUTUBE DESCRIPTION**
-This is my C++ project that implements classes to allow the user to create a custom course calculator for their class. It accommodates different numbers or categories, assignments, and even grading schemes. Ultimately, it will output which grading scheme is best to use and the final grade and percentage it results in.
-GitHub: https://github.com/petern48
